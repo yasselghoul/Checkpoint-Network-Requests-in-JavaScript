@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay loop muted id="bgVideo">
+      <source src="Générique météo _ France 2.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="content-container">
+    <div class="container">
+      <h1 class="title">Weather App</h1>
+      <input type="text" id="cityInput" placeholder="Enter City">
+      <button onclick="getWeatherData()">Search</button>
+      <p class="location">Loading...</p>
+      <div class="weather-info">
+        <p class="temperature">...</p>
+        <p class="description">...</p>
+      </div>
+    </div>
+  </div>
+  <script src="test.js"></script>
+</body>
+</html>
+
